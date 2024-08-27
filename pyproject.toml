@@ -38,5 +38,5 @@ line_length = 79
 lint = "black --check --diff . && isort --check --diff ."
 docs = "mkdocs serve"
 pre_test = "task lint"
-test = "pytest -s -x --cov=notas_musicais --v"
+test = "pytest -s -x --cov=notas_musicais -v"
 post_test = "coverage html"
