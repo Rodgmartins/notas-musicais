@@ -5,8 +5,13 @@ description = ""
 authors = ["Rodigo G Martins <mrgobetti0@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+escalas = "notas_musicais.cli:app"
+
 [tool.poetry.dependencies]
 python = "^3.12"
+typer = "^0.12.5"
+rich = "^13.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
